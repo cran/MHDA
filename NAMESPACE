@@ -1,0 +1,10 @@
+import(methods, stats, graphics)
+
+export(
+ "MHDA",
+ "MHDA.plot",
+ "Steps.analysis"
+)
+
+exportClasses(Res.mhda.1,Res.mhda.2)
+
