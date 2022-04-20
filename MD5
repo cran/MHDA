@@ -1,12 +1,12 @@
-4faa9da48629e21375209b89016412d2 *DESCRIPTION
+71a42b52e0c15f763f6a46638aa37d24 *DESCRIPTION
 ff63edeb6f04ad61aaaff2bc2d93c0e8 *NAMESPACE
 a9da0fa0546053605334f2177c84fdec *R/AllClasses.R
 e6191280fe83cb889edb658004834e8b *R/MHDA.R
 e67304ffcb41c8459f3ae749af9f3c02 *R/MHDA.plot.R
-75dfa5b786aa91e6284a95f3ae700f94 *R/Steps.analysis.R
-2c84cffebb7c8b056c3ff7fe9ce6e103 *man/MHDA-package.Rd
+04825ae6fa9cfafe05d978ee9cf459f2 *R/Steps.analysis.R
+0aa64521711ec059b3ba289f85df2c72 *man/MHDA-package.Rd
 9541cdcca6fc1b7ebd0e3072aac445f6 *man/MHDA.Rd
 f8beaa7ce751625f238981aad6321ec1 *man/MHDA.plot.Rd
 0727ca112653e3d9e1d835239ae8b05d *man/Res.mhda.1-class.Rd
 20e7b3125aa5fe618458d265e5e1a654 *man/Res.mhda.2-class.Rd
-e0233a09f3c117ebcf890582003cc381 *man/Steps.analysis.Rd
+f2c08a40a93854088c45fd2b1cdd14bd *man/Steps.analysis.Rd
