@@ -3,7 +3,8 @@
 \title{Stepwise analysis of a series of numeric observations on multiple levels of rhythms}
 \description{
     It's a function to conduct stepwise analysis on a series of numeric observations,
- specifically stepwisely computing the mean of observations on each rhythm. Missing observations are allowed. Maximally available for seven Rhythms.
+ specifically stepwisely computing the mean of observations on each rhythm. Missing observations are allowed. 
+Neither the number of rhythms nor the number of steps on any rhythm is of limit.
 }  
 \usage{
 Steps.analysis(ID, Tag, S, Rhythms, Start, plot, pick.plot)
