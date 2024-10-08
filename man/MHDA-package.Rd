@@ -7,12 +7,12 @@
 \tabular{ll}{
 Package: \tab MHDA\cr
 Type: \tab Package\cr
-Version: \tab 1.2\cr
-Date: \tab 2022-06-12\cr
+Version: \tab 1.3\cr
+Date: \tab 2024-10-09\cr
 License: \tab GPL-2\cr
 }
  }
-\author{ Yi Ya and Jacob Zhang }
+\author{ Yarong Yang and Jacob Zhang }
 
 \keyword{package }
 

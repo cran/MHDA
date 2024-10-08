@@ -26,7 +26,7 @@ Steps.analysis(ID, Tag, S, Rhythms, Start, plot, pick.plot)
 \value{A list. The first element of the list is the series of the mean values along the whole periodic rhythms. 
 The second element of the list shows the total mean on each rhythm. }
 
-\author{Yi Ya}
+\author{Yarong Yang}
 
 \examples{
 

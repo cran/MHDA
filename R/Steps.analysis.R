@@ -30,8 +30,12 @@ Steps.analysis<-function(ID,Tag,S,Rhythms,Start,plot,pick.plot) {
     names(Rhythms.mean)<-IDS
     if(plot==TRUE) {
          Cols<-rep(1:length(Rhythms),length.out=length(LL))    
-         plot(LL,col=Cols,xlab=Tag,ylab="",type="n",main=ID)      
-         legend("topleft",legend=IDS.new[1:length(Rhythms)],col=levels(factor(Cols)),lwd=5)
+         plot(LL,col=Cols,xlab=Tag,ylab="",type="n",main=ID) 
+         med<-vector()
+         for(i in 1:length(Rhythms)) med[i]<-as.integer(substr(IDS.new[i],7,7))
+         Med<-sort(med,decreasing=FALSE,index=TRUE)
+         legends<-IDS.new[1:length(Rhythms)]
+         legend("topleft",legend=legends[Med$ix],col=levels(factor(Cols))[Med$ix],lwd=5)
          for(i in 1:length(LL)) lines(x=c(i,i),y=c(0,LL[i]),col=Cols[i],lwd=5)
          for(j in 1:length(Rhythms)) {
                ix<-which(names(Rhythms.mean)==IDS.new[j])
@@ -52,7 +56,8 @@ Steps.analysis<-function(ID,Tag,S,Rhythms,Start,plot,pick.plot) {
                Cols.t[i]<-col.t
          }    
          plot(LL.pick,col=Cols.pick,xlab=Tag,ylab="",xaxt="n",type="n",main="")
-         legend("topleft",legend=paste("Rhythm",pick.plot,sep=""),col=Cols.t,lwd=5)
+         Med<-sort(pick.plot,decreasing=FALSE,index=TRUE)
+         legend("topleft",legend=paste("Rhythm",pick.plot,sep="")[Med$ix],col=Cols.t[Med$ix],lwd=5)
          for(i in 1:length(LL.pick)) lines(x=c(i,i),y=c(0,LL.pick[i]),col=Cols.pick[i],lwd=5)
          for(j in 1:length(pick.plot)) {
                lines(x=c(sum(P[1:j])+0.5,sum(P[1:j])+0.5),y=c(0,max(LL.pick[!is.na(LL.pick)])),col=1,lwd=1,lty=2)
