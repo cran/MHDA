@@ -1,7 +1,7 @@
 MHDA.plot<-function(data,plot.type,Class,ID,Category.I,Category.II,Slot) {
 
      plot.line<-function(S,AT,ID,Tag) {
-          plot(S,ylim=c(min(S)-IQR(S),max(S)+IQR(S)),main=paste(ID,":",round(sum(S),2),sep=""),xaxt="n",ylab=Tag,
+          plot(S,ylim=c(min(S)-IQR(S),max(S)+IQR(S)),main=paste(ID,": ",round(sum(S),2),sep=""),xaxt="n",ylab=Tag,
                xlab=paste("Max:",round(max(S),2),"--","Min:",round(min(S),2),sep=""),type="l",lwd=2)
           points(1:length(S),S,col="red",pch=19)
           ix<-which(S==max(S))
@@ -24,8 +24,9 @@ MHDA.plot<-function(data,plot.type,Class,ID,Category.I,Category.II,Slot) {
           on.exit(par(par.new))
           pt<-ifelse(data@is.binary==TRUE,"+","")
           Slot<-Slot[1]
-          plot.line(S=data@Obj.a.unit[[Slot]][,1],AT=rownames(data@Obj.a.unit[[Slot]]),ID=ID,Tag=paste(Slot," ",pt,sep=""))
-          plot.line(S=data@Obj.a.unit[[Slot]][,2],AT=rownames(data@Obj.a.unit[[Slot]]),ID=ID,Tag=paste(Slot," ",pt,sep=""))
+          ColNames<-colnames(data@Obj.a.unit[[Slot]])
+          plot.line(S=data@Obj.a.unit[[Slot]][,1],AT=rownames(data@Obj.a.unit[[Slot]]),ID=paste(ID,"@",ColNames[1],sep=""),Tag=paste(Slot," ",pt,sep=""))
+          plot.line(S=data@Obj.a.unit[[Slot]][,2],AT=rownames(data@Obj.a.unit[[Slot]]),ID=paste(ID,"@",ColNames[2],sep=""),Tag=paste(Slot," ",pt,sep=""))
      }
 
      if(plot.type=="pie") {

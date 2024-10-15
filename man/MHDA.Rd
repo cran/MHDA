@@ -27,6 +27,8 @@ MHDA(Data,data.infor,type,is.binary,Unit,Category.I,Category.II,Slot)
  
 \value{A list.}
 
+\author{Yarong Yang and Jacob Zhang}
+
 \examples{
 
 ##generating a small data for example###

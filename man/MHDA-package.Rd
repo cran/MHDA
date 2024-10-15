@@ -7,8 +7,8 @@
 \tabular{ll}{
 Package: \tab MHDA\cr
 Type: \tab Package\cr
-Version: \tab 1.3\cr
-Date: \tab 2024-10-09\cr
+Version: \tab 1.4\cr
+Date: \tab 2024-10-14\cr
 License: \tab GPL-2\cr
 }
  }

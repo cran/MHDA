@@ -17,6 +17,8 @@ MHDA.plot(data,plot.type,Class,ID,Category.I,Category.II,Slot)
   \item{Slot}{ Character Strings. Names of slots. Line plot only shows results for the first single slot. }
 }
 
+\author{Yarong Yang and Jacob Zhang}
+
 \examples{
 
 ##generating a small data for example###
