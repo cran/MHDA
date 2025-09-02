@@ -29,6 +29,10 @@ MHDA(Data,data.infor,type,is.binary,Unit,Category.I,Category.II,Slot)
 
 \author{Yarong Yang and Jacob Zhang}
 
+\references{
+Yarong Yang and Jacob Zhang.(2025)  MHDA: Massive Hierarchically Data Analysis. manuscript in preparation
+}
+
 \examples{
 
 ##generating a small data for example###

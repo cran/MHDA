@@ -28,6 +28,10 @@ The second element of the list shows the total mean on each rhythm. }
 
 \author{Yarong Yang}
 
+\references{
+Yarong Yang and Jacob Zhang.(2025)  MHDA: Massive Hierarchically Data Analysis. manuscript in preparation
+}
+
 \examples{
 
 data1<-abs(rnorm(150,0,1))

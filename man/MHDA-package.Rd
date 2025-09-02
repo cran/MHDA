@@ -2,17 +2,21 @@
 \alias{MHDA-package}
 \docType{package}
 \title{ Massive Hierarchically Data Analysis}
-\description{ Three main functions about analyzing massive data (missing observations are allowed) considered from multiple layers of categories.} 
+\description{ Three main functions about analyzing massive data (missing observations are allowed) considered from multiple layers of categories are demonstrated. Flexible and diverse applications of the function parameters make the data analyses powerful.} 
 \details{
 \tabular{ll}{
 Package: \tab MHDA\cr
 Type: \tab Package\cr
-Version: \tab 1.4\cr
-Date: \tab 2024-10-14\cr
+Version: \tab 2.0\cr
+Date: \tab 2025-09-02\cr
 License: \tab GPL-2\cr
 }
  }
 \author{ Yarong Yang and Jacob Zhang }
+
+\references{
+Yarong Yang and Jacob Zhang.(2025)  MHDA: Massive Hierarchically Data Analysis. manuscript in preparation
+}
 
 \keyword{package }
 

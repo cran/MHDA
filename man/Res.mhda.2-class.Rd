@@ -1,5 +1,5 @@
 \name{Res.mhda.2}
-\Rdversion{1.4}
+\Rdversion{2.0}
 \docType{class}
 \alias{Res.mhda.2-class}
 

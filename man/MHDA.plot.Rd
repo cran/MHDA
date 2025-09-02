@@ -12,12 +12,16 @@ MHDA.plot(data,plot.type,Class,ID,Category.I,Category.II,Slot)
   \item{plot.type}{ Character. "line" for line plot for Unit. "pie" for pie plot for Category I and Category II. }
   \item{Class}{ Character. "Unit", "Category.I", or "Category.II".}
   \item{ID}{Character. A level of the category of argument Class.}
-  \item{Category.I}{ Character Strings. Partial or full levels of Category I according to the object assigned to arugument "data". }
+  \item{Category.I}{ Character Strings. Partial or full levels of Category I according to the object assigned to argument "data". }
   \item{Category.II}{ Character Strings. Partial or full levels of Category II according to the object assigned to argument "data". }
   \item{Slot}{ Character Strings. Names of slots. Line plot only shows results for the first single slot. }
 }
 
 \author{Yarong Yang and Jacob Zhang}
+
+\references{
+Yarong Yang and Jacob Zhang.(2025)  MHDA: Massive Hierarchically Data Analysis. manuscript in preparation
+}
 
 \examples{
 
